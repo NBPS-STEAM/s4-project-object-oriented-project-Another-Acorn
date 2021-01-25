@@ -21,34 +21,34 @@ The project will need to meet the Completion Criteria as well as follow the Acad
 
 ### Part 1
 Before you start any coding, complete the following steps:
-- [ ] accept the assignment on GitHub Classroom,
-- [ ] import the project into your IDE,
-- [ ] accept the Academic Honesty Guidelines in 'worksCited.md'
-- [ ] read over the assignment's grading rubric on Canvas,
-- [ ] tick the checkboxes for all the tasks in Part 1,
-- [ ] make your first commit to your GitHub project.
+- [X] accept the assignment on GitHub Classroom,
+- [X] import the project into your IDE,
+- [X] accept the Academic Honesty Guidelines in 'worksCited.md'
+- [X] read over the assignment's grading rubric on Canvas,
+- [X] tick the checkboxes for all the tasks in Part 1,
+- [X] make your first commit to your GitHub project.
 
 Part 1 will not be considered complete until all these steps are completed.
 
 ### Part 2
 As you begin coding, ensure that your project contains all the following criteria:
-- [ ] One main class (App) from which the program executes,
-- [ ] Two or more other classes,
-- [ ] Constructors with overloading,
-- [ ] Appropriate accessor & mutator methods,
-- [ ] Static variables & methods
+- [X] One main class (App) from which the program executes,
+- [X] Two or more other classes,
+- [X] Constructors with overloading,
+- [X] Appropriate accessor & mutator methods,
+- [X] Static variables & methods
 
 As you work on your project, be sure to...
-- [ ] Regularly commit your code, i.e. at the end of every coding session,
-- [ ] Add comments to your code to explain its purpose and functionality
-- [ ] Add links to any resources you use to the 'worksCited.md' file
+- [X] Regularly commit your code, i.e. at the end of every coding session,
+- [X] Add comments to your code to explain its purpose and functionality
+- [X] Add links to any resources you use to the 'worksCited.md' file
 
 Refer to the grading rubric as you go to ensure you're doing the assignment correctly.
 
 ### Part 3
 Once you've completed your assignment, record a short video (~5 minutes) that includes the following:
-- [ ] a quick demonstration that your codes works,
-- [ ] the GitHub project repository with all commits,
-- [ ] explanation of how your code uses encapsulation
+- [X] a quick demonstration that your codes works,
+- [X] the GitHub project repository with all commits,
+- [X] explanation of how your code uses encapsulation
 
 Add the link to your video here:

@@ -1,2 +1,4 @@
 language = "java10"
 run = "javac *.java; java App"
+//DON'T FORGET TO CHECK OFF BOXES ON LIST
+// CITATION
