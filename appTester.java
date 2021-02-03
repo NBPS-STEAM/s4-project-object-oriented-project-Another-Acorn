@@ -3,17 +3,6 @@ public class appTester {
 //Declare all variables
      static String move1;
      static String move2;
-     static String p1 = "_";
-     static String p2 = "_";
-     static String A1 = "_";
-     static String A2 = "_";
-     static String A3 = "_";
-     static String B1 = "_";
-     static String B2 = "_";
-     static String B3 = "_";
-     static String C1 = "_";
-     static String C2 = "_"; 
-     static String C3 = "_";
      static boolean noWinner = false;
      static boolean win1 = false;
      static boolean win2 = false;
