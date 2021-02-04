@@ -186,3 +186,5 @@ public class Board {
         {
           win2 = false;
         }
+  }
+}

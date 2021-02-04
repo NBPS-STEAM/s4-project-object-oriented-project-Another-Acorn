@@ -1,5 +1,8 @@
+//DON'T FORGET TO CHECK OFF BOXES ON LIST
+// CITATION
+
 import java.util.Scanner;
-public class appTester {
+public class App {
 //Declare all variables
      static String move1;
      static String move2;
@@ -61,5 +64,5 @@ public class appTester {
         //Winner1(win1, A1, A2, A3, B1, B2, B3, C1, C2, C3);  
     }
   }
-  }
+  
 }
