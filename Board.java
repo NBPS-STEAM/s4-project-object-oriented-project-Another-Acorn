@@ -5,7 +5,7 @@ public class Board {
      static String A1 = "_";
      static String A2 = "_";
      static String A3 = "_";
-     static String B1 = "_";
+      static String B1 = "_";
      static String B2 = "_";
      static String B3 = "_";
      static String C1 = "_";
