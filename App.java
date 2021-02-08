@@ -45,7 +45,7 @@ public class App {
         game.moveIt(move2, "o");
         game.printBoard();
 //print a cute border to signal end of turn
-        printBorder();
+        printBorder(20);
 //Player 2 win sequence
          Board.Winner2();
          if (win2 == true)
@@ -66,5 +66,11 @@ public class App {
           System.out.print ("*");
         }
     }
-
+  public static void printBorder(int stars)
+    {
+      for (int i = 1; i < stars; i++)
+        {
+          System.out.print ("*");
+        }
+    }
 }
