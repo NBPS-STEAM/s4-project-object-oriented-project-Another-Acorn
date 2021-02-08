@@ -9,8 +9,6 @@ public class App {
      static boolean noWinner = false;
      static boolean win1 = false;
      static boolean win2 = false;
-     
-
     public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
 //print intro
@@ -22,25 +20,25 @@ public class App {
         System.out.println("Enter player 2's name:");
         Player p2 = new Player(input.nextLine());
         System.out.println("Player 1: " + p1.getName() + "\nPlayer 2: " + p2.getName());
+        Board game = new Board();
 //start while loop and game 
       while (noWinner == false)
       {
-        Board game = new Board();
 //player 1 plays
         System.out.println("\nGive " + p1.getName() + "'s next move:");
         move1 = input.nextLine();
         game.moveIt(move1, "x");
         game.printBoard();
 //print a cute border to signal end of turn
-    printBorder();
+   printBorder();
 //Checks for Player 1 having won and acts accordingly if true
-        // Winner1();
-        // if (win1 == true)
-        // {
-        //   System.out.println(p1 + " has won!");
-        //   noWinner = true;
-        //   break;
-        // }
+         Board.Winner1();
+         if (win1 == true)
+         {
+           System.out.println(p1 + " has won!");
+           noWinner = true;
+           break;
+         }
 //player 2 plays
         System.out.println("\n Give " + p2.getName() + "'s next move:");
         move2 = input.nextLine();
@@ -49,23 +47,24 @@ public class App {
 //print a cute border to signal end of turn
         printBorder();
 //Player 2 win sequence
-        // Winner2();
-        // if (win2 == true)
-        // {
-        //   System.out.println(p2.getName() + " has won!");
-        //   noWinner = true;
-        //   break;
+         Board.Winner2();
+         if (win2 == true)
+         {
+           System.out.println(p2.getName() + " has won!");
+           noWinner = true;
+           break;
         }
         //Winner1(win1, A1, A2, A3, B1, B2, B3, C1, C2, C3);  
+      }
     }
 
-  //How to print a border 
-  public static void printBorder()
-  {
-    for (int i = 1; i < 51; i++)
-      {
-        System.out.print ("*");
-      }
-  }
-}
+    //How to print a border 
+    public static void printBorder()
+    {
+      for (int i = 1; i < 51; i++)
+        {
+          System.out.print ("*");
+        }
+    }
 
+}

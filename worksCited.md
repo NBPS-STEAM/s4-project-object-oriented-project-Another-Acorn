@@ -16,3 +16,8 @@ When making a citation, include the resource title, URL, and date of access. Use
 
 [Java If ... Else](https://www.w3schools.com/java/java_conditions.asp)
 Date accessed: Jan 20, 2021
+[Static Uses](https://stackoverflow.com/questions/413898/what-does-the-static-keyword-do-in-a-class)
+Date accessed: Jan 21, 2021 
+[Java Compiler Error: illegal start of expression]
+(https://www.baeldung.com/java-illegal-start-of-expression)
+Date accessed: Feb 6, 2021
